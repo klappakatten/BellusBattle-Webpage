@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
+  <link rel="stylesheet" href="Css/jquery-ui.min.css">
+  <link rel="stylesheet" href="Css/style.css">
+  <script src="Libs/jquery.js"></script>
+  <script src="Libs/jquery-ui.min.js"></script>
+  <script src="javascript/program.js"></script>
+  <title>Bellus Battle the game</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="logotext">Bellus Battle</h1>
+    <img src="Images/bellusposternobg.png" alt="Bellus Battle panda holding guns">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>What is <em class="blackyellow bigtext">Bellus Battle?</em></h2>
+      <p>
+        Bellus Battle is a fast-paced fighting party game where up to 4
+        players battle it out to be the last one standing. Players can pick up
+        various <em class="blackyellow">unqiue weapons</em> scattered around the arena to
+        gain an advantage and destroy their enemy.
+      </p>
+
+      <video controls>
+        <source src="Videos/BellusTrailer.mp4#t=1" type="video/mp4">
+        Your browser does not support the .mp4 videoformat
+      </video>
+
+      <p>
+        Bellus Battle have a good collection of crazy weapons and levels to keep the
+        gameplay <em class="blackyellow">fresh and exciting</em>. The design focus for us is on creating
+        fun and entertaining weapons that are both enjoyable to use and face.
+        The local multiplayer allows up to four players to play simultaneously
+        which adds alot of <em class="blackyellow">chaos</em> and <em class="blackyellow">fun</em>. The game is
+        round-based and played with how many number of rounds you'd like. </p>
+
+      <div id="tabs" class="hidden">
+        <ul>
+          <li><a href="#tabs-1">Revolver</a></li>
+          <li><a href="#tabs-2">Grenade Launcher</a></li>
+          <li><a href="#tabs-3">Railgun</a></li>
+        </ul>
+        <div id="tabs-1">
+          <figure>
+            <img src="Images/revolver_600x343.png" alt="Image of a revolver">
+            <figcaption>
+              The revolver is one of the basic weapon we have in the game,
+              simply point and shoot at your enemies!
+            </figcaption>
+          </figure>
+        </div>
+        <div id="tabs-2">
+          <figure>
+            <img src="Images/grenadelauncher_600x343.png" alt="Image of a grenadelauncher">
+            <figcaption>
+              The grenadelauncher is a very dangerous gun that can rapidly
+              fire exploding shells! Kills enemy on direct impact.
+            </figcaption>
+          </figure>
+        </div>
+        <div id="tabs-3">
+          <figure>
+            <img src="Images/railgun_600x343.png" alt="Image of a railgun">
+            <figcaption>
+              The railgun is a really powerful weapon that lets you shoot a
+              laser through any obstacle!
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <p>
+        The backstory involves animals fighting each other to the death for
+        the entertainment of humans who bet on the winner. Players can choose
+        from different <em class="blackyellow">animals</em> ranging from lost pets to wildlife savages.
+      </p>
+
+      <div class="darkbluebg">
+        <h2 id="characterh" class="blackyellow bigtext">Playable Characters</h2>
+        <div id="characters">
+          <figure id="character-1" class="bghover">
+            <img src="Images/panda_400x550.png" class="blackfilter" alt="Image of a panda">
+            <figcaption>Panda</figcaption>
+          </figure>
+          <p class="hidden">
+            <em class="blackyellow bigtext">Panda</em> <br>The unofficial main
+            character of Bellus arena, he might not look dangerous but he has
+            won the crown several times already. The panda is always looking
+            for a good fight.
+          </p>
+          <figure id="character-2" class="bghover">
+            <img class="blackfilter" src="Images/pig_400x550.png" alt="Image of a panda">
+            <figcaption>Pig</figcaption>
+          </figure>
+          <p class="hidden">
+            <em class="blackyellow bigtext">Pig</em> <br>This little piggy grew up
+            in a rough neighborhood where you had to be really tough to
+            survive. Unfortunately the little piggy tends to be very scared.
+            Got caught stealing and was therefore sentenced to the arena
+          </p>
+          <figure id="character-3" class="bghover">
+            <img src="Images/monkey__400x550.png" class="blackfilter" alt="Image of a Pig">
+            <figcaption>Monkey</figcaption>
+          </figure>
+          <p class="hidden">
+            <em class="blackyellow bigtext">Monkey</em> <br>This little monkey is
+            always angry for some reason, why? nobody knows and no one person
+            is brave enough to ask him... some think the monkey attends the
+            arena for fun..?!
+          </p>
+          <figure id="character-4" class="bghover">
+            <img src="Images/cat_400x550.png" class="blackfilter" alt="Image of a cat">
+            <figcaption>Cat</figcaption>
+          </figure>
+          <p class="hidden">
+            <em class="blackyellow bigtext">Cat</em> <br>Indoor cat that went on a
+            adventure to find his owners gone when he came back, he now has to
+            do whatever it takes to survive
+          </p>
+        </div>
+      </div>
+
+      <p>
+        The game world has a toonshader that allows for fun and varied themes
+        for the levels. The levels come in small, medium, and large sizes, and
+        there are various weapon spawns that are based on the level, with some
+        randomization.
+      </p>
+
+      <div id="accordion">
+        <h3>City</h3>
+        <div>
+          <figure>
+            <img src="Images/City.png" alt="Picture of a City level">
+            <figcaption>City style level theme</figcaption>
+          </figure>
+        </div>
+        <h3>Colosseum</h3>
+        <div>
+          <figure>
+            <img src="Images/Colosseum.png" alt="Picture of a Colusseum level">
+            <figcaption>Colluseum style level theme</figcaption>
+          </figure>
+        </div>
+        <h3>Castle</h3>
+        <div>
+          <figure>
+            <img src="Images/Castle.png" alt="Picture of a Castle level">
+            <figcaption>Castle style level theme</figcaption>
+          </figure>
+        </div>
+        <h3>Farm</h3>
+        <div>
+          <figure>
+            <img src="Images/Farm.png" alt="Picture of a Farm level">
+            <figcaption>Farm style level theme</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <p>
+        In summary, our game is a thrilling fighting game with crazy weapons,
+        unique animal characters, and a fun game world that will keep players
+        engaged for hours.
+      </p>
+
+      <figure>
+        <img src="Images/gregposter.png" alt="Bellus Battle picture of a panda, cat, pig and monkey">
+        <figcaption>Bellus Battle poster</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2 class="blackyellow bigtext">When is it the game ready?</h2>
+      <p>
+        The game is currently in a playable state! We need to fix a few bugs,
+        tweak a couple of things and then its ready for release. We will start
+        by releasing a smaller version of the game and release it for <em class="blackyellow">free</em> on
+        <a href="http://itch.io">itch.io</a>. Depending on the level of
+        interest we plan to release the game in 2023 on the following
+        platforms:
+      </p>
+      <ul>
+        <li>Playstation</li>
+        <li>Xbox</li>
+      </ul>
+      <p>
+        If you have any questions about the game or if you want to provide
+        feedback we'd love to here from you! you can contact us by filling out
+        the form <a href="contact.html">here</a>
+      </p>
+    </section>
+  </main>
+
+  <aside class="sticky">
+    <h4 class="blackyellow">Subscribe to Bellus news:</h4>
+
+    <form id="newsletter">
+      <label for="email">Email:</label>
+      <input id="email" type="email" required placeholder="enter email here..">
+      <button type="submit" id="submit">Subscribe</button>
+    </form>
+    <h4 class="blackyellow">Links:</h4>
+
+    <ul class="noul">
+      <li><a href="http://itch.io">Itch.io</a></li>
+      <li><a href="https://discord.gg/rqQHxta34B">Discord</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <a href="#top">Top</a>
+    <hr>
+    <p>Copyright &copy; 2023 - Bellus Battle</p>
+  </footer>
+  <script src="javascript/firestore.js" type="module"></script>
+</body>
+</html>

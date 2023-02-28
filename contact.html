@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
+  <link rel="stylesheet" href="Css/jquery-ui.min.css">
+  <link rel="stylesheet" href="Css/style.css">
+  <script src="Libs/jquery.js"></script>
+  <script src="Libs/jquery-ui.min.js"></script>
+  <title>Bellus Battle the game</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="logotext">Bellus Battle</h1>
+    <img src="Images/bellusposternobg.png" alt="Bellus Battle panda holding guns">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section>
+      <h2 class="blackyellow bigtext">Contact us</h2>
+      <p>Feel free to contact us using the form below, <em class="blackyellow">we appreciate</em> your <em
+          class="blackyellow">feedback</em> and
+        <em class="blackyellow">support</em>! If you prefer
+        to email
+        us directly please click <a href="mailto:martinnyman.mail@gmail.com?subject=Bellus Battle">here</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="blackyellow bigtext">Form</h2>
+      <form id="contactform">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="enter name here.." autofocus>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="enter email here..">
+        <label for="textinput">Your message</label>
+        <textarea name="textinput" id="textinput" rows="10" placeholder="enter message here..." required minlength="3"
+          maxlength="600" title="3-600 characters required"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+
+    </section>
+
+  </main>
+  <aside class="sticky">
+    <h4 class="blackyellow">Subscribe to Bellus news:</h4>
+
+    <form id="newsletter">
+      <label for="email">Email:</label>
+      <input id="email" type="email" required placeholder="enter email here..">
+      <button type="submit" id="submit">Subscribe</button>
+    </form>
+    <h4 class="blackyellow">Links:</h4>
+
+    <ul class="noul">
+      <li><a href="http://itch.io">Itch.io</a></li>
+      <li><a href="https://discord.gg/rqQHxta34B">Discord</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <a href="#top">Top</a>
+    <hr>
+    <p>Copyright &copy; 2023 - Bellus Battle</p>
+  </footer>
+  <script src="javascript/firestore.js" type="module"></script>
+</body>
+</html>

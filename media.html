@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
+  <link rel="stylesheet" href="Css/jquery-ui.min.css">
+  <link rel="stylesheet" href="Css/style.css">
+  <script src="Libs/jquery.js"></script>
+  <script src="Libs/jquery-ui.min.js"></script>
+  <script src="javascript/media.js"></script>
+  <title>Bellus Battle the game</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="logotext">Bellus Battle</h1>
+    <img src="Images/bellusposternobg.png" alt="Bellus Battle panda holding guns">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <h2 class="blackyellow bigtext">Media</h2>
+    <p>Here you can find all the Bellus Media. Feel free to submit your <em class="blackyellow">awesome</em> Bellus
+      Battle <em class="blackyellow">screenshots</em> or <em class="blackyellow">videos</em>.
+      You can contact us using the form <a href="contact.html">here</a> or send us an <a
+        href="mailto:martinnyman.mail@gmail.com?subject=Bellus Battle media">email</a>. </p>
+    <div id="media-container">
+      <video controls class="span-3" id="media-1">
+        <source src="Videos/BellusTrailer.mp4#t=1" type="video/mp4">
+        Your browser does not support the .mp4 videoformat
+      </video>
+      <img src="Images/City.png" alt="City level" id="media-2" class="notselected">
+      <img src="Images/Colosseum.png" alt="Colosseum level" id="media-3" class="notselected">
+      <img src="Images/Castle.png" alt="Castle level" id="media-4" class="notselected">
+      <img src="Images/Farm.png" alt="Farm level" id="media-5" class="notselected">
+    </div>
+
+  </main>
+
+  <aside class="sticky">
+    <h4 class="blackyellow">Subscribe to Bellus news:</h4>
+
+    <form id="newsletter">
+      <label for="email">Email:</label>
+      <input id="email" type="email" required placeholder="enter email here..">
+      <button type="submit" id="submit">Subscribe</button>
+    </form>
+    <h4 class="blackyellow">Links:</h4>
+
+    <ul class="noul">
+      <li><a href="http://itch.io">Itch.io</a></li>
+      <li><a href="https://discord.gg/rqQHxta34B">Discord</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <a href="#top">Top</a>
+    <hr>
+    <p>Copyright &copy; 2023 - Bellus Battle</p>
+  </footer>
+  <script src="javascript/firestore.js" type="module"></script>
+</body>
+</html>
